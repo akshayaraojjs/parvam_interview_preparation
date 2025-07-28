@@ -1,0 +1,12 @@
+DMA: Dynamic Memory Allocation
+malloc() : Memory allocation
+ptr = (returntype* ) malloc(n * (sizeof(datatype-of-ptr)));
+Ex:  int *ptr = (int *)malloc(sizeof(int) * 5);  
+Allocating the memory for 5 integer items
+
+calloc(): Contiguous Allocation
+ptr = (returntype* ) calloc(n, (sizeof(datatype-of-ptr)));
+Ex:  int *ptr = (int *)calloc(5, sizeof(int));  
+
+realloc(): Re-Allocation
+free(): Clearing the memory
