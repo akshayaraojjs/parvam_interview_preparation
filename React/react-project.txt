@@ -1,0 +1,88 @@
+npm create vite@latest app-name --template react
+
+React - JavaScript based framework (Dynamically updating the data)
+
+Vite - Plugin or Library
+
+jsx - JavaScript XML (To write HTML from JS) (Virtual DOM) (Automatically updates the HTML components based on the events occurred)
+
+DOM - Document Object Model
+
+Traditional DOM - Document -> HTML 
+                                |
+                            head        body
+                            |           |
+                        title, link     h1, p, table
+
+XML - Extended Markup Language
+
+src - 
+    assets - To store the images, css files and js files
+    App.jsx - Brain of React App (Controller of all the components)
+    main.jsx - To Link the React App with index.html
+
+index.html - Main file which is going to show the output
+
+package.json - Dependency Manager
+
+vite.config.js - Vite Configuration settings
+
+npm - node package Manager
+
+npm install package-name
+
+npm install bootstrap
+
+To run the React app:
+
+npm run dev
+
+react port: 3000
+
+vite port: 5173
+
+localhost: Environment where we are working
+
+http://localhost:5173
+
+node_modules folder contains all the Dependency libraries or files
+
+To get the node_modules, we need to run npm install
+
+All the file names should be given in PascalCase
+
+navbar => Navbar
+
+student form => StudentForm
+
+
+Basic Structure:
+
+// Header file
+import React from "react";
+
+// function based approach
+function Header(){
+
+    // return the HTML components
+    return(
+
+    );
+}
+
+// exporting the component to reuse in anothe file
+export default Header;
+
+For navigation purpose, we need a Dependency called React-Router-Dom
+
+npm install react-router-dom
+
+We have some default css styles in index.css, we can remove it if it is not neccessary
+
+class attribute will become className
+
+class => className
+
+If we want to use Bootstrap in React App, we need to import the CSS & JS files
+
+We will link it in the main.jsx

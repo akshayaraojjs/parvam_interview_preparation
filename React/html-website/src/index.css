@@ -1,0 +1,23 @@
+a{
+  text-decoration: none;
+  color: brown;
+  font-size: 20px;
+  padding: 20px;
+}
+
+ul{
+  padding: 50px;
+  border: 1px solid black;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.footer{
+  position: fixed;
+  bottom: 0;
+  border: 1px solid black;
+  font-size: 30px;
+  text-align: center;
+  width: 100%;
+}
